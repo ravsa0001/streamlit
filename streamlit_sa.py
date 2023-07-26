@@ -14,7 +14,7 @@ url = "https://github.com/ravsa0001/Sentiment_Analysis/blob/main/model_pickle.pk
 response = requests.get(url)
 # Importing the file for sentiment analysys
 with open("model_pickle.pkl", "rb") as f:
-    cv, mod = pickle.load(f)
+    cv, mod = pickle.load(ff)
 # Performing counvectorizer that converts a string into float values
 review_count = cv.transform(review) 
 # Analysing the review given by the user
