@@ -1,7 +1,8 @@
 # Importing libraries
 import streamlit as st
 import pickle
-import sklearn
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
 
 # Taking the input or rather person review for analysys
 st.markdown("<h1 style = 'text-align : center'> Enter the review for you product </h1>", unsafe_allow_html=True)    
