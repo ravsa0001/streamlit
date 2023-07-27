@@ -1,6 +1,7 @@
 # Importing libraries
 import streamlit as st
 import pickle
+import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 
